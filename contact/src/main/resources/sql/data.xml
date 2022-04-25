@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dumpdata>
+
+
+    <module name="tlc_crm_contact">
+
+        <MCMFieldSQLTable ID="MCMFieldSQLTable:ID:CO:1" TABLE_NAME="MCOContact"/>
+
+        <MCMDataProvider ID="MCMDataProvider:ID:CO:1" TYPE="1" NAME="test">
+            <MCMFields ID="MCMFields:ID:CO:1" NAME="id" DISPLAY_NAME="i18n_crm_contact_id" PRIMARY="true" SORT="1" SEARCHABLE="false" ORDER="1" HIDDEN="true">
+                <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:1" TABLE_ID="MCMFieldSQLTable:ID:CO:1" COLUMN="ID" TYPE="" FLAG=""/>
+            </MCMFields>>
+            <MCMFields ID="MCMFields:ID:CO:2" NAME="name" DISPLAY_NAME="i18n_crm_contact_name" SORT="1" SEARCHABLE="true" ORDER="2" HIDDEN="false">
+                <MCMFieldSQLSource ID="MCMFieldSQLSource:ID:CO:2" TABLE_ID="MCMFieldSQLTable:ID:CO:1" COLUMN="NAME" TYPE="" FLAG=""/>
+            </MCMFields>
+        </MCMDataProvider>
+    </module>
+
+</dumpdata>

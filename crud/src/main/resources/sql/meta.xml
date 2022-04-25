@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+    <module name="module_crm_crud">
+        <table name="StudentData">
+            <columns>
+                <column name="ID" data-type="BIGINT"/>
+                <column name="NAME" data-type="CHAR" nullable="false"/>
+                <column name="DEPARTMENT" data-type="CHAR" nullable="false"/>
+            </columns>
+            <primary-key name="StudentData_PK" column="ID" sequence-generator="StudentData.ID" />
+        </table>
+    </module>
+</metadata>
